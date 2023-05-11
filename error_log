@@ -1,0 +1,7 @@
+[08-May-2023 20:39:02 America/Phoenix] PHP Fatal error:  Uncaught Error: Call to undefined function each() in /home/f1vyvfuadfip/public_html/mail_test.php:2957
+Stack trace:
+#0 /home/f1vyvfuadfip/public_html/mail_test.php(768): SMTP->Data()
+#1 /home/f1vyvfuadfip/public_html/mail_test.php(588): PHPMailer->SmtpSend()
+#2 /home/f1vyvfuadfip/public_html/mail_test.php(3481): PHPMailer->Send()
+#3 {main}
+  thrown in /home/f1vyvfuadfip/public_html/mail_test.php on line 2957
